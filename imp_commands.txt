@@ -1,0 +1,2 @@
+PROCESSOR_INFO(cores): cat /proc/cpuinfo  | grep process| wc -l
+PROCESSOR_TYPE: cat /proc/cpuinfo  | grep 'name'| uniq
