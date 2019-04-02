@@ -1,3 +1,4 @@
+(http://softwaretestingfundamentals.com/test-case/
 https://loadfocus.com/blog/2016/07/18/which-is-the-best-and-fastest-way-to-find-elements-using-selenium-webdriver/
 
 https://stackoverflow.com/questions/16788310/what-is-the-difference-between-cssselector-xpath-and-which-is-better-with-resp
@@ -26,3 +27,6 @@ https://techbeacon.com/app-dev-testing/record-playback-test-automation-harmful
 https://www.slideshare.net/TestArmada/functional-test-best-practice-120875727
 https://www.slideshare.net/TestArmada/functional-test-best-practice-120875727
 https://medium.com/expedia-engineering/distributed-automation-how-to-run-1000-ui-automation-tests-in-5mins-cf9a84ca32d1
+http://stories.visualstudio.com/bing-continuous-delivery/
+https://seleniumjava.com/2015/12/12/how-to-make-selenium-webdriver-scripts-faster/
+
