@@ -1,2 +1,4 @@
 PROCESSOR_INFO(cores): cat /proc/cpuinfo  | grep process| wc -l
 PROCESSOR_TYPE: cat /proc/cpuinfo  | grep 'name'| uniq
+
+MAX_DISK_USAGE_DIRECTORIES: du -a /Users/dheeraj | sort -n -r | head -n 5
