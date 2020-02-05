@@ -1,1 +1,3 @@
-https://github.com/jlipps/simple-wd-spec
+WEBDRIVER specs: https://github.com/jlipps/simple-wd-spec
+
+APPIUM W3C implementation: https://github.com/dpgraham/appium-w3c-explanation/blob/master/README.md
