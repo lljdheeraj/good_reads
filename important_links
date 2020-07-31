@@ -1,3 +1,10 @@
+Apache and PHP server: https://medium.com/better-programming/install-apache-mysql-php-macos-mojave-10-14-b6b5c00b7de
+
+LINUX Commands: https://github.com/crhuber/linux-cheatsheet 
+
+Q. What happens when you hit a url?
+Ans:   https://github.com/alex/what-happens-when
+
 KAFKA architecture :  https://sookocheff.com/post/kafka/kafka-in-a-nutshell/
 	ZOOKEEPER setup : https://zookeeper.apache.org/doc/r3.1.2/zookeeperAdmin.html#sc_systemReq
 	Kafka machine setup : https://docs.confluent.io/current/kafka/deployment.html#jvm

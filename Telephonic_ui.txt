@@ -1,0 +1,264 @@
+Telephonic
+How can you check the performance of a website?
+
+What happens when you hit a url?
+
+How does inheritance works in javascript?
+
+What are the different Position properties in CSS?
+
+How Float works with different properties?
+
+What are the measures to improve performance of a Web Application?
+
+Explain CSS Box modal.
+
+What is closure in Javascript?
+
+What is the difference between async and defer? 
+
+What are the different ways you can align an element in centre?
+
+How to write css for responsive websites?
+
+How CSS specificity works?
+
+What is keyframes?
+
+What are the different units available in CSS like px/em?
+
+What properties in CSS forces to use hardware acceleration?
+
+Difference between JSON and JSONP?
+
+What are the different data types available in Javascript?
+
+Can you override a event in Javascript?
+
+Object Deep comparison?
+
+
+
+What is the difference between == and === ? How == works?
+
+Implement polyfill for Arrays map?
+
+What are the different ways you can create Object in Javascript?
+
+What are the different ways to achieve inheritance in Javascript?
+
+Difference between call bind and apply.
+
+Different HTTP verbs?
+
+What is prototype chain?
+
+What is bubbling/capturing?
+
+What is event delegation?
+
+How to create private methods in Javascript?
+
+Explain Transition and transform property
+
+How you can achieve Object equality in JS?
+
+How to check if something is an Array?
+
+What is the difference between .call(), .bind() and .apply() ?
+
+Explain Arrow functions.
+
+Explain GET vs POST
+
+
+
+Difference between null & undefined
+
+Explain Lifecycle component of a React component?
+
+What exactly happens when you load a Webpage?
+
+Using setTimeout to implement setInterval
+
+(function(){ var a = b = 3; })()
+console.log(a)
+console.log(b)
+
+What will a and b print
+
+var myObject = {
+    foo: "bar",
+    func: function() {
+        var self = this;
+        console.log("outer func:  this.foo = " + this.foo);
+        console.log("outer func:  self.foo = " + self.foo);
+        (function() {
+            console.log("inner func:  this.foo = " + this.foo);
+            console.log("inner func:  self.foo = " + self.foo);
+        }());
+    }
+};
+myObject.func();
+Above console.log value output
+
+(function(x) {
+    return (function(y) {
+        console.log(x);
+    })(2)
+})(1);
+Output the above
+
+(function () {
+    try {
+        throw new Error();
+    } catch (x) {
+        var x = 1, y = 2;
+        console.log(x);
+    }
+    console.log(x);
+    console.log(y);
+})();
+Output the console above
+
+var trees = ["xyz","xxxx","test","ryan","apple"];
+delete trees[3];
+   
+console.log(trees.length);
+var b = 1;
+function outer(){
+    var b = 2
+    function inner(){
+        b++;
+        var b = 3;
+        console.log(b)
+    }
+    inner();
+}
+outer();
+- 
+
+A .1. What is the output of this?
+
+var a;
+console.log(a);
+Ans: undefined
+A. 2. What is the output of this?
+
+var a;
+console.log(a, b);
+Ans: Reference Error b is not defined.
+
+B. 1. What is everything treated as in JavaScript?
+Ans: Object
+B. 2. What is this?
+
+var a = [1, 2, 3 ,4];
+
+Ans: Array
+B. 3. What will the output of this?
+console.log(a);
+
+Ans. 
+
+{0: 1, 1: 2, 2: 3, 3: 4, length: 4}
+B. 4. What is this?
+
+var b = {0: 1, 1: 2, 2: 3, 3: 4, length: 4}
+Ans. Object
+B. 5. How to do you differentiate between a and b?
+Ans. instanceof
+
+Telephonic Coding Questions:
+
+
+Senior →
+
+=== Implement currying
+
+Question: 
+function sum (a, b) {
+return a + b;
+}
+
+var currySum = currier(sum);
+currySum(2, 3) // should return 5
+currySum(2)(3) // should also return 5
+
+Solution: https://medium.com/@kevincennis/currying-in-javascript-c66080543528
+
+
+
+=== Implement Array Native Methods
+Ex - Implement Array.flatten
+
+Question:
+
+var arr = [[1], [2, 3], [4, [5, 6]]];
+flatten(arr) => // should return [1, 2, 3, 4, 5, 6];
+
+
+
+
+
+Create a function getHexagonCoordinates which will accept 3 parameters x,y and numberOfRings. This function will return coordinates of all the hexagons. Use this function to create all the hexagon ring.
+
+Example with 3 rings
+
+
+
+
+
+Make a restaurant finder using zomato and google Maps API
+- The UI should accept the location of the User as input, you should provide options for taking the location of the user or a text input
+- Zomato provides api for the best restaurants around based on location
+- The restaurants location should be overlayed on top of Google Maps along with the users location'
+- Rest of the UI is up to you. But should provide basic info like 
+  - Cuisine
+  - Price Range
+  - Some Pics
+  - Online Delivery?
+  - Booking URL etc
+  - Reviews/Ratings
+
+
+
+
+In Office assignment:
+Problem Statement
+
+Create an Ideas Board, Something like this: 
+
+
+
+Features:
+
+Idea Name
+Idea Description
+Data should be persisted in Local Storage
+Creation Date should be displayed
+All the ideas should be drag n droppable.
+Inline Editing to update the ideas
+Deletion of ideas
+** Points for good creative design (To check Candidate's CSS skills)
+
+*** Depending on the Experience / Skill Set of the candidate it can be done in Pure Javascript / React / any other framework
+
+Audio Visualizer
+a. Audio API (JS Fundam90entals)
+b. XMLHttp with array buffer (JS Fundamentals)
+c. Bars Rendering (will test UI)
+Multi-select dropdown plugin (pure JS and or REACT)
+Create a focused (step wise) sign up form; one input element at a time should be UI and animation heavy.
+Create a simple world with one platform at the bottom, on click create a ball that drops from the position and bounces on the platform
+Create a library like light-box (modal) (using Javascript/React)
+JSON Prettify using Pure JavaScript
+Image cropping application
+Color picker from image application
+Implement pub-sub in the frontend
+
+
+Articles Link →
+
+https://www.toptal.com/javascript/interview-questions
+

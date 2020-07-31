@@ -1,6 +1,8 @@
 PROCESSOR_INFO(cores): cat /proc/cpuinfo  | grep process| wc -l
 PROCESSOR_TYPE: cat /proc/cpuinfo  | grep 'name'| uniq
 
+ENABLE /etc/init.d SERVICE ON REBOOT: sudo update-rc.d service_name defaults
+
 MAX_DISK_USAGE_DIRECTORIES: du -a /Users/dheeraj | sort -n -r | head -n 5
 
-CLEAR CACHE MEMORY LINUX: sync; echo 3 > /proc/sys/vm/drop_caches 
+CLEAR CACHE MEMORY LINUX: sync; echo 3 > /proc/sys/vm/drop_caches

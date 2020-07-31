@@ -1,0 +1,28 @@
+https://loadfocus.com/blog/2016/07/18/which-is-the-best-and-fastest-way-to-find-elements-using-selenium-webdriver/
+
+https://stackoverflow.com/questions/16788310/what-is-the-difference-between-cssselector-xpath-and-which-is-better-with-resp
+
+https://www.sitepoint.com/optimizing-css-id-selectors-and-other-myths/
+
+https://engineering.linkedin.com/blog/2015/12/test-stability---how-we-make-ui-tests-stable
+
+https://medium.com/square-corner-blog/build-stability-82dabdf00c3a
+
+https://medium.com/@liviu.lupei/10-unexpected-ways-to-improve-your-automated-tests-863fb1da73f9
+
+Walmart: https://medium.com/walmartlabs/elements-of-successful-massive-scale-automated-testing-f071c17f2907
+Walmart: https://www.slideshare.net/TestArmada/functional-test-best-practice-120875727
+Bing: http://stories.visualstudio.com/bing-continuous-delivery/
+Expedia: https://medium.com/expedia-engineering/distributed-automation-how-to-run-1000-ui-automation-tests-in-5mins-cf9a84ca32d1
+Salesforce: https://www.slideshare.net/salesforceeng/selenium-at-salesforce-scale-32539866
+Linkedin: https://engineering.linkedin.com/blog/2015/12/test-stability---how-we-make-ui-tests-stable
+Square: https://medium.com/square-corner-blog/build-stability-82dabdf00c3a
+https://medium.com/@liviu.lupei/10-unexpected-ways-to-improve-your-automated-tests-863fb1da73f9
+
+https://seleniumjava.com/2015/12/12/how-to-make-selenium-webdriver-scripts-faster/
+https://www.leapwork.com/blog/avoid-record-playback-test-automation
+https://techbeacon.com/app-dev-testing/record-playback-test-automation-harmful
+
+https://www.slideshare.net/TestArmada/functional-test-best-practice-120875727
+https://www.slideshare.net/TestArmada/functional-test-best-practice-120875727
+https://medium.com/expedia-engineering/distributed-automation-how-to-run-1000-ui-automation-tests-in-5mins-cf9a84ca32d1

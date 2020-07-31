@@ -1,0 +1,5 @@
+**************IPA**********************
+
+- Table View(Contacts App): https://www.ralfebert.de/ios-examples/uikit/uitableviewcontroller/
+
+- Signing IPA: https://wiki.genexus.com/commwiki/servlet/wiki?34616,HowTo%3A+Create+an+.ipa+file+from+XCode

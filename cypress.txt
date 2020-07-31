@@ -1,0 +1,2 @@
+Cypress Introduction: https://dzone.com/articles/why-should-you-switch-to-cypress-for-modern-web-te
+Documentation: https://docs.cypress.io/guides/overview/why-cypress.html
