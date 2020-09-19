@@ -1,0 +1,62 @@
+KIRANA STORE SPEC:
+
+
+BACKEND
+-----------------
+  1. AVAILABLE FRAMEWORKS:
+    - Django
+      Tutorial: https://www.djangoproject.com/start/
+
+    - Flask
+      Tutorial: https://flask.palletsprojects.com/en/1.1.x/tutorial/
+
+    - Ruby on Rails
+      Tutorial: https://guides.rubyonrails.org/
+
+    - Golang
+      Tutorial: https://medium.com/the-andela-way/build-a-restful-json-api-with-golang-85a83420c9da#:~:text=We%20create%20a%20new%20folder,and%20change%20directory%20into%20it.&text=We%20then%20create%20an%20entry,is%20the%20main.go%20file.&text=Open%20the%20main.go%20file,app%20using%20the%20main%20function.
+
+    - NodeJS
+      Tutorial: https://nodejs.org/en/docs/guides/getting-started-guide/
+
+
+    Django vs Flask:
+
+      Flask: If I want to build only REST API (ie only backend)
+
+      Django: If I wish to build the complete website (ie both backend and frontend)
+
+      Twisted/Tornado: If I am developing a chat like application or need a event-driven networking environment.
+
+
+Database Tables:
+---------------
+
+  * users
+    
+
+  * shops
+
+  * orders
+      id
+      user_id
+      status
+      amount
+      description
+      invoice_id
+      created_at
+      updated_at
+      cancel_reason
+      cancelled_date
+      source
+
+
+Required APIs
+---------------
+
+  * /users
+  * /sign_up
+  * /sign_in
+  * /orders
+  * /create_order
+  * /nearby_shops
