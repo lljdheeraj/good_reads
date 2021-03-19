@@ -6,3 +6,14 @@ ENABLE /etc/init.d SERVICE ON REBOOT: sudo update-rc.d service_name defaults
 MAX_DISK_USAGE_DIRECTORIES: du -a /Users/dheeraj | sort -n -r | head -n 5
 
 CLEAR CACHE MEMORY LINUX: sync; echo 3 > /proc/sys/vm/drop_caches
+
+GET ALL PROCESS INFO: ```ps -eo pid,lstart,cmd```
+
+GITHUB:
+-----------
+
+* Light Checkout
+	git clone --filter=blob:none <url>
+* Shallow clone
+	git clone --depth 1 <url>        [git fetch might take time]	
+
